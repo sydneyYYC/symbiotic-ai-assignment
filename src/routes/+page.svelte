@@ -18,9 +18,9 @@
 			<a href="/about" class="block max-w-max"><p class="my-6 bg-blue max-w-max px-2 py-[0.1rem] rounded-full text-white font-semibold text-md hover:bg-darkblue">Discover More</p></a>
 		</section>
 		<!-- overlapping images -->
-		<section class="w-[50%] h-auto my-4 grid grid-cols-3 grid-rows-2">
-			<img class="w-[442px] h-[365px] bg-slate-200 z-10 rounded-lg col-span-3 row-start-1 col-start-1" src="" alt="placeholder">
-			<img class="w-[288px] h-[247px] bg-slate-500 rounded-lg col-start-2 col-span-3 row-start-1 row-span-2 self-center" src="" alt="smaller placeholder">
+		<section class="w-[50%] h-auto my-4 grid grid-cols-4 grid-rows-4">
+			<img class="w-[442px] h-[365px] bg-slate-200 z-10 rounded-lg col-span-3 row-start-1 col-start-1 row-span-3" src="" alt="placeholder">
+			<img class="w-[288px] h-[247px] bg-slate-500 rounded-lg col-start-3 col-span-3 row-start-3 row-span-2 self-end" src="" alt="smaller placeholder">
 		</section>
 	</section>
 	<!-- second section of two columns -->
