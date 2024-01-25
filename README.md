@@ -59,3 +59,10 @@ Cons
 - Needs to use color to emphasize call to action (contact us)
 - Maintain good composition and balance , easy to navigate
 - Create a professional image that inspires trustworthiness
+
+
+#### Resources
+
+[Icons](https://www.iconfinder.com/)
+
+[Images](https://unsplash.com/)

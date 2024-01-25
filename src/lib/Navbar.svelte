@@ -4,13 +4,13 @@
   let navLinks = [
     {name: "Home", href: "/"},
     {name: "About", href: "/about"},
-    {name: "Our Team", href: "/team"},
+    {name: "Our Values", href: "/mission"},
   ];
 </script>
 
 <nav class="bg-black flex justify-between items-center">
   <div class="mx-4 my-2">
-    <a href="#top"><img src="/assets/symbiotic-wordmark.svg" alt="Symbiotic AI logo"></a>
+    <a href="/"><img src="/assets/symbiotic-wordmark.svg" alt="Symbiotic AI logo"></a>
   </div>
   <ul class="flex text-white items-center">
     {#each navLinks as { name, href }}
