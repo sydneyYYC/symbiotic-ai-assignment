@@ -10,17 +10,31 @@
 	</div>
 </header>
 <main class="mx-3 sm:mx-6 md:mx-[5rem]">
-	<!-- first section  -->
-	<section class="flex space-between flex-wrap mt-4">
+	<!-- first section including text and images-->
+	<section class="flex justify-between flex-wrap mt-4">
 		<section class="w-[50%] h-auto self-start leading-10">
 			<h3 class="text-6xl block my-4 font-semibold">We turn big data into better health.</h3>
 			<p class="text-xl max-w-[50ch] block my-6">Here at Symbiotic AI we are harnessing the potential of artificial intelligence to empower clinicians and patients making healthcare decisions.</p>
 			<a href="/about" class="block max-w-max"><p class="my-6 bg-blue max-w-max px-2 py-[0.1rem] rounded-full text-white font-semibold text-md hover:bg-darkblue">Discover More</p></a>
 		</section>
 		<!-- overlapping images -->
-		<section class="w-[50%] h-auto self-end my-4 grid grid-cols-3 grid-rows-2">
+		<section class="w-[50%] h-auto my-4 grid grid-cols-3 grid-rows-2">
 			<img class="w-[442px] h-[365px] bg-slate-200 z-10 rounded-lg col-span-3 row-start-1 col-start-1" src="" alt="placeholder">
 			<img class="w-[288px] h-[247px] bg-slate-500 rounded-lg col-start-2 col-span-3 row-start-1 row-span-2 self-center" src="" alt="smaller placeholder">
 		</section>
+	</section>
+	<!-- second section of two columns -->
+	<section>
+		<h3 class="text-5xl font-semibold block my-8">The future of health</h3>
+		<div class="flex flex-wrap justify-between items-start my-12">
+			<div class="flex flex-col max-w-[45%] items-start">
+				<img class="h-[80px] w-auto mb-4" src="/assets/ai-brain-logo.svg" alt="brain representing Artificial Intelligence">
+				<p class="text-xl">Pioneering the future of healthcare through advanced data analytics, machine learning, and artificial intelligence. Recognizing the transformative power of artificial intelligence, we are charting the course for a healthcare landscape powered by the limitless potential of artificial intelligence.</p>
+			</div>
+			<div class="flex flex-col max-w-[45%] items-start">
+				<img class="h-[90px] w-auto" src="/assets/heart-logo.svg" alt="heart representing heart health">
+				<p class="text-xl">Our collective vision is to unlock the true potential hidden within digital health data, propelling it from just data to solutions that actually improve healthcare practices. Fuelling this vision is a diverse and talented team dedicated to pushing the boundaries of digital health.</p>
+			</div>
+		</div>
 	</section>
 </main>
