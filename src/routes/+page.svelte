@@ -37,4 +37,33 @@
 			</div>
 		</div>
 	</section>
+	<!-- values section -->
+	<section class="my-8">
+		<h4 class="text-4xl font-semibold">Serving our community</h4>
+		<p>Here at Symbiotic AI we promise to serve with:</p>
+		<!-- values boxes flex container -->
+		<div class="flex justify-between mt-8 flex-wrap">
+			<div class="bg-slate-200 w-[160px] h-[160px] flex-none flex flex-col items-center justify-center">
+				<img src="/assets/values/innovation.svg" alt="logo representing innovation">
+				<p>Innovation</p>
+			</div>
+			<div class="bg-slate-200 w-[160px] h-[160px] flex-none flex flex-col items-center justify-center">
+				<img src="/assets/values/respect.svg" alt="logo representing respect">
+				<p>Respect</p>
+			</div>
+			<div class="bg-slate-200 w-[160px] h-[160px] flex-none flex flex-col items-center justify-center">
+				<img src="/assets/values/compassion.svg" alt="logo representing compassion">
+				<p>Compassion</p>
+			</div>
+			<div class="bg-slate-200 w-[160px] h-[160px] flex-none flex flex-col items-center justify-center">
+				<img src="/assets/values/integrity.svg" alt="logo representing integrity">
+				<p>Integrity</p>
+			</div>
+			<div class="bg-slate-200 w-[160px] h-[160px] flex-none flex flex-col items-center justify-center">
+				<img src="/assets/values/trust.svg" alt="logo representing trustworthiness">
+				<p>Trustworthiness</p>
+			</div>
+		</div>
+		<a href="/mission" class="max-w-max"><p class="text-right my-6 bg-blue max-w-max px-2 py-[0.1rem] rounded-full text-white font-semibold text-md hover:bg-darkblue">Learn More</p></a>
+	</section>
 </main>
