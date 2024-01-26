@@ -66,7 +66,9 @@
 				<p class="min-w-full bg-black p-4 text-center mt-[2.8rem] text-white font-semibold text-lg"> Trustworthiness</p>
 			</div>
 		</div>
-		<a href="/mission" class="max-w-max"><p class="text-right my-6 bg-blue max-w-max px-2 py-[0.1rem] rounded-full text-white font-semibold text-md hover:bg-darkblue">Learn More</p></a>
+		<div class="flex min-w-max items-start justify-end m-0">
+			<a href="/mission" class="max-w-max"><p class="text-right bg-blue max-w-max px-3 py-[0.5rem] rounded-full text-white font-semibold text-md hover:bg-darkblue">Learn More</p></a>
+		</div>
 	</section>
 	<!-- our team section -->
 	<section class="my-8 mt-[6rem]">
