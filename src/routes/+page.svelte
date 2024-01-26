@@ -6,7 +6,7 @@
 
 <!-- hero section -->
 <header class="font-inter text-white bg-black h-[30%] flex flex-col items-center justify-center">
-	<div class="my-6">
+	<div class="my-6 p-4">
 		<h1 class="text-6xl font-bold">Take control of Your Heart. Your Health.</h1>
 		<p class="block my-2">Powered by Symbiotic AI</p>
 	</div>
@@ -73,7 +73,7 @@
 	<!-- our team section -->
 	<section class="my-8 mt-[6rem]">
 		<h3 class="font-semibold text-4xl my-8 mb-[4rem]">Our Team of Experts</h3>
-		<div class="flex justify-between">
+		<div class="flex justify-between flex-wrap">
 			<div class="flex flex-col items-center">
 				<img class="h-[250px] w-[250px] rounded-full bg-slate-200 mb-4" src="/" alt="Mr. Arjun Puri">
 				<h5 class="font-semibold text-xl">Chief Executive Officer</h5>
