@@ -69,21 +69,24 @@
 		<a href="/mission" class="max-w-max"><p class="text-right my-6 bg-blue max-w-max px-2 py-[0.1rem] rounded-full text-white font-semibold text-md hover:bg-darkblue">Learn More</p></a>
 	</section>
 	<!-- our team section -->
-	<section class="flex justify-between my-8 mt-[6rem]">
-		<div class="flex flex-col items-center">
-			<img class="h-[250px] w-[250px] rounded-full bg-slate-200 mb-4" src="/" alt="Mr. Arjun Puri">
-			<h5 class="font-semibold text-xl">Chief Executive Officer</h5>
-			<p >Mr. Arjun Puri</p>
-		</div>
-		<div class="flex flex-col items-center">
-			<img class="h-[250px] w-[250px] rounded-full bg-slate-200 mb-4" src="/" alt="Dr. Joon Lee">
-			<h5 class="font-semibold text-xl">Chief Technology Officer</h5>
-			<p>Dr. Joon Lee</p>
-		</div>
-		<div class="flex flex-col items-center">
-			<img class="h-[250px] w-[250px] rounded-full bg-slate-200 mb-4" src="/" alt="Ms. Emma Bogner">
-			<h5 class="font-semibold text-xl" >Product Manager</h5>
-			<p>Ms. Emma Bogner</p>
+	<section class="my-8 mt-[6rem]">
+		<h3 class="font-semibold text-4xl my-8 mb-[4rem]">Our Team of Experts</h3>
+		<div class="flex justify-between">
+			<div class="flex flex-col items-center">
+				<img class="h-[250px] w-[250px] rounded-full bg-slate-200 mb-4" src="/" alt="Mr. Arjun Puri">
+				<h5 class="font-semibold text-xl">Chief Executive Officer</h5>
+				<p >Mr. Arjun Puri</p>
+			</div>
+			<div class="flex flex-col items-center">
+				<img class="h-[250px] w-[250px] rounded-full bg-slate-200 mb-4" src="/" alt="Dr. Joon Lee">
+				<h5 class="font-semibold text-xl">Chief Technology Officer</h5>
+				<p>Dr. Joon Lee</p>
+			</div>
+			<div class="flex flex-col items-center">
+				<img class="h-[250px] w-[250px] rounded-full bg-slate-200 mb-4" src="/" alt="Ms. Emma Bogner">
+				<h5 class="font-semibold text-xl" >Product Manager</h5>
+				<p>Ms. Emma Bogner</p>
+			</div>
 		</div>
 	</section>
 	<section class="flex flex-col items-center my-[8rem]">
