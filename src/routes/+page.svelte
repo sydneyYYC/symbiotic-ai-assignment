@@ -45,25 +45,25 @@
 		<p>Here at Symbiotic AI we promise to serve with:</p>
 		<!-- values boxes flex container -->
 		<div class="flex justify-between mt-8 flex-wrap">
-			<div class="bg-slate-200 w-[160px] h-[160px] flex-none flex flex-col items-center justify-center">
-				<img src="/assets/values/innovation.svg" alt="logo representing innovation">
-				<p>Innovation</p>
+			<div class=" w-[160px] h-[160px] flex-none flex flex-col">
+				<img class="bg-blue self-start justify-self-start w-[60px] h-auto absolute ml-4 p-1" src="/assets/values/innovation.svg" alt="logo representing innovation">
+				<p class="min-w-full bg-black p-4 text-center mt-[2.8rem] text-white font-semibold text-lg">Innovation</p>
 			</div>
-			<div class="bg-slate-200 w-[160px] h-[160px] flex-none flex flex-col items-center justify-center">
-				<img src="/assets/values/respect.svg" alt="logo representing respect">
-				<p>Respect</p>
+			<div class="w-[160px] h-[160px] flex-none flex flex-col">
+				<img class="bg-blue self-start justify-self-start w-[60px] h-auto absolute ml-4 p-1" src="/assets/values/respect.svg" alt="logo representing respect">
+				<p class="min-w-full bg-black p-4 text-center mt-[2.8rem] text-white font-semibold text-lg">Respect</p>
 			</div>
-			<div class="bg-slate-200 w-[160px] h-[160px] flex-none flex flex-col items-center justify-center">
-				<img src="/assets/values/compassion.svg" alt="logo representing compassion">
-				<p>Compassion</p>
+			<div class="w-[160px] h-[160px] flex-none flex flex-col">
+				<img class="bg-blue self-start justify-self-start w-[60px] h-auto absolute ml-4 p-1" src="/assets/values/compassion.svg" alt="logo representing compassion">
+				<p class="min-w-full bg-black p-4 text-center mt-[2.8rem] text-white font-semibold text-lg"> Compassion</p>
 			</div>
-			<div class="bg-slate-200 w-[160px] h-[160px] flex-none flex flex-col items-center justify-center">
-				<img src="/assets/values/integrity.svg" alt="logo representing integrity">
-				<p>Integrity</p>
+			<div class="w-[160px] h-[160px] flex-none flex flex-col">
+				<img class="bg-blue self-start justify-self-start w-[60px] h-[60px] absolute ml-4 p-1" src="/assets/values/integrity.svg" alt="logo representing integrity">
+				<p class="min-w-full bg-black p-4 text-center mt-[2.8rem] text-white font-semibold text-lg"> Integrity</p>
 			</div>
-			<div class="bg-slate-200 w-[160px] h-[160px] flex-none flex flex-col items-center justify-center">
-				<img src="/assets/values/trust.svg" alt="logo representing trustworthiness">
-				<p>Trustworthiness</p>
+			<div class="w-[160px] h-[160px] flex-none flex flex-col">
+				<img class="bg-blue self-start justify-self-start w-[60px] h-auto absolute ml-4 p-1" src="/assets/values/trust.svg" alt="logo representing trustworthiness">
+				<p class="min-w-full bg-black p-4 text-center mt-[2.8rem] text-white font-semibold text-lg"> Trustworthiness</p>
 			</div>
 		</div>
 		<a href="/mission" class="max-w-max"><p class="text-right my-6 bg-blue max-w-max px-2 py-[0.1rem] rounded-full text-white font-semibold text-md hover:bg-darkblue">Learn More</p></a>
