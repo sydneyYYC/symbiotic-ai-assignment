@@ -5,24 +5,24 @@
 </script>
 
 <!-- hero section -->
-<header class="font-inter text-white bg-black h-[30%] flex flex-col items-center justify-center">
+<!-- <header class="font-inter text-white bg-black h-[30%] flex flex-col items-center justify-center">
 	<div class="my-6 p-4 mr-2 md:m-auto">
 		<h1 class="md:ml-6 md:text-6xl text-4xl font-bold ">Take control of Your Heart. Your Health.</h1>
 		<p class=" md:ml-6 md:text-xl block my-2">Powered by Symbiotic AI</p>
 	</div>
-</header>
+</header> -->
 <main class="mx-3 sm:mx-6 md:mx-[5rem] mx-6">
 	<!-- first section including text and images-->
-	<section class="flex md:justify-between flex-wrap mt-4 justify-items-stretch">
+	<section class="flex md:justify-between flex-wrap mt-10 justify-items-stretch">
 		<section class="md:w-[50%] h-auto self-start leading-10">
 			<h3 class=" sm:text-5xl text-4xl md:text-6xl block my-4 font-semibold">We turn big data into better health.</h3>
 			<p class="text-xl max-w-[50ch] block my-6">Here at Symbiotic AI we are harnessing the potential of artificial intelligence to empower clinicians and patients making healthcare decisions.</p>
-			<a href="/about" class="block max-w-max"><p class="my-6 bg-blue max-w-max px-2 py-[0.1rem] rounded-full text-white font-semibold text-md hover:bg-darkblue">Discover More</p></a>
+			<a href="/about" class="block max-w-max"><p class="my-6 bg-blue max-w-max px-2 py-[0.1rem] text-white font-semibold text-md hover:bg-darkblue">Discover More</p></a>
 		</section>
 		<!-- overlapping images -->
 		<section class=" w-[0] md:w-[50%] h-auto my-4 grid grid-cols-4 grid-rows-4 bg-contain">
-			<img class="sm:col-span-full md:w-[442px] md:h-[365px] w-[0] h-[0] bg-contain z-10 rounded-lg col-span-3 row-start-1 col-start-1 row-span-3" src="/assets/images/thirdman.jpg" alt="placeholder">
-			<img class="sm:col-start-1 md:col-start-3 md:w-[288px] md:h-[247px] bg-contain w-[0] h-[0] rounded-lg col-start-3 col-span-3 row-start-3 row-span-2 self-end" src="/assets/images/dawson.jpg" alt="smaller placeholder">
+			<img class="sm:col-span-full md:w-[442px] md:h-[365px] w-[0] h-[0] bg-contain z-10  col-span-3 row-start-1 col-start-1 row-span-3" src="/assets/images/thirdman.jpg" alt="placeholder">
+			<img class="sm:col-start-1 md:col-start-3 md:w-[288px] md:h-[247px] bg-contain w-[0] h-[0]  col-start-3 col-span-3 row-start-3 row-span-2 self-end" src="/assets/images/dawson.jpg" alt="smaller placeholder">
 		</section>
 	</section>
 	<!-- second section of two columns -->
@@ -41,7 +41,7 @@
 	</section>
 	<!-- values section -->
 	<section class="my-8">
-		<h4 class="text-3xl md:text-4xl font-semibold">Serving our community</h4>
+		<h4 class="text-3xl md:text-4xl">Serving our community</h4>
 		<p>Here at Symbiotic AI we promise to serve with:</p>
 		<!-- values boxes flex container -->
 		<div class="flex justify-between mt-8 flex-wrap">
@@ -66,9 +66,9 @@
 				<p class="min-w-full bg-black p-4 text-center mt-[2.8rem] text-white font-semibold text-lg"> Trustworthiness</p>
 			</div>
 		</div>
-		<div class="flex min-w-max items-start justify-end m-0">
+		<!-- <div class="flex min-w-max items-start justify-end m-0">
 			<a href="/mission" class="max-w-max"><p class="text-right bg-blue max-w-max px-3 py-[0.5rem] rounded-full text-white font-semibold text-md hover:bg-darkblue">Learn More</p></a>
-		</div>
+		</div> -->
 	</section>
 	<!-- our team section -->
 	<section class=" my-8 mt-[6rem]">
