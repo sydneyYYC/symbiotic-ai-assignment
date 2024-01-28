@@ -1,8 +1,28 @@
 <script>
 	import ContactButton from "../lib/ContactButton.svelte";
 	import ContactButtonWhite from "../lib/ContactButtonWhite.svelte";
+	import TeamCard from "../lib/TeamCard.svelte";
+	import TeamCardReverse from "../lib/TeamCardReverse.svelte";
+	// data for the team section
 
-	
+const arjunData = 
+	{imgSrc: "/",
+	imgAlt: "Mr. Arjun Puri",
+	title: "Chief Executive Officer",
+	name: "Mr. Arjun Puri"};
+
+	const emmaData = 
+	{imgSrc: "/",
+	imgAlt: "Ms. Emma Bogner",
+	title: "Product Manager",
+	name: "Ms. Emma Bogner"};
+
+	const joonData = {
+		revImgsrc: "/",
+		revImgAlt: "Dr. Joon Lee",
+		revTitle: "Chief Technology Officer",
+		revName: "Dr. Joon Lee"
+	}
 </script>
 
 <!-- hero section -->
@@ -74,7 +94,12 @@
 	<!-- our team section -->
 	<section class=" my-8 mt-[6rem]">
 		<h3 class="font-semibold text-3xl md:text-4xl my-8 mb-[4rem]">Our Team of Experts</h3>
-		<div class="flex justify-between flex-wrap">
+		<TeamCard {...arjunData}/>
+
+		<TeamCardReverse {...joonData} />
+
+		<TeamCard {...emmaData}/>
+		<!-- <div class="flex justify-between flex-wrap">
 			<div class="flex flex-col items-center mb-8 md:mb-0 ml-12 md:ml-0">
 				<img class="h-[250px] w-[250px] bg-slate-200 mb-4" src="/" alt="Mr. Arjun Puri">
 				<h5 class="font-semibold text-xl">Chief Executive Officer</h5>
@@ -90,7 +115,7 @@
 				<h5 class="font-semibold text-xl" >Product Manager</h5>
 				<p>Ms. Emma Bogner</p>
 			</div>
-		</div>
+		</div> -->
 	</section>
 </main>
 <!-- end banner -->
