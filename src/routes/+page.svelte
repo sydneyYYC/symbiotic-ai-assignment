@@ -7,22 +7,22 @@
 <!-- hero section -->
 <header class="font-inter text-white bg-black h-[30%] flex flex-col items-center justify-center">
 	<div class="my-6 p-4 mr-2 md:m-auto">
-		<h1 class="text-4xl md:text-6xl font-bold ">Take control of Your Heart. Your Health.</h1>
-		<p class="md:text-xl block my-2">Powered by Symbiotic AI</p>
+		<h1 class="md:ml-6 md:text-6xl text-4xl font-bold ">Take control of Your Heart. Your Health.</h1>
+		<p class=" md:ml-6 md:text-xl block my-2">Powered by Symbiotic AI</p>
 	</div>
 </header>
 <main class="mx-3 sm:mx-6 md:mx-[5rem] mx-6">
 	<!-- first section including text and images-->
 	<section class="flex md:justify-between flex-wrap mt-4 justify-items-stretch">
 		<section class="md:w-[50%] h-auto self-start leading-10">
-			<h3 class=" text-4xl md:text-6xl block my-4 font-semibold">We turn big data into better health.</h3>
+			<h3 class=" sm:text-5xl text-4xl md:text-6xl block my-4 font-semibold">We turn big data into better health.</h3>
 			<p class="text-xl max-w-[50ch] block my-6">Here at Symbiotic AI we are harnessing the potential of artificial intelligence to empower clinicians and patients making healthcare decisions.</p>
 			<a href="/about" class="block max-w-max"><p class="my-6 bg-blue max-w-max px-2 py-[0.1rem] rounded-full text-white font-semibold text-md hover:bg-darkblue">Discover More</p></a>
 		</section>
 		<!-- overlapping images -->
-		<section class=" w-[0] md:w-[50%] h-auto my-4 grid grid-cols-4 grid-rows-4">
-			<img class="md:w-[442px] md:h-[365px] w-[0] h-[0] bg-slate-200 z-10 rounded-lg col-span-3 row-start-1 col-start-1 row-span-3" src="" alt="placeholder">
-			<img class="md:w-[288px] md:h-[247px] bg-slate-500 w-[0] h-[0] rounded-lg col-start-3 col-span-3 row-start-3 row-span-2 self-end" src="" alt="smaller placeholder">
+		<section class=" w-[0] md:w-[50%] h-auto my-4 grid grid-cols-4 grid-rows-4 bg-contain">
+			<img class="sm:col-span-full md:w-[442px] md:h-[365px] w-[0] h-[0] bg-contain z-10 rounded-lg col-span-3 row-start-1 col-start-1 row-span-3" src="/assets/images/thirdman.jpg" alt="placeholder">
+			<img class="sm:col-start-1 md:col-start-3 md:w-[288px] md:h-[247px] bg-contain w-[0] h-[0] rounded-lg col-start-3 col-span-3 row-start-3 row-span-2 self-end" src="/assets/images/dawson.jpg" alt="smaller placeholder">
 		</section>
 	</section>
 	<!-- second section of two columns -->
@@ -75,17 +75,17 @@
 		<h3 class="font-semibold text-3xl md:text-4xl my-8 mb-[4rem]">Our Team of Experts</h3>
 		<div class="flex justify-between flex-wrap">
 			<div class="flex flex-col items-center mb-8 md:mb-0 ml-12 md:ml-0">
-				<img class="h-[250px] w-[250px] rounded-full bg-slate-200 mb-4" src="/" alt="Mr. Arjun Puri">
+				<img class="h-[250px] w-[250px] bg-slate-200 mb-4" src="/" alt="Mr. Arjun Puri">
 				<h5 class="font-semibold text-xl">Chief Executive Officer</h5>
 				<p >Mr. Arjun Puri</p>
 			</div>
 			<div class="flex flex-col items-center mb-8 md:mb-0 ml-12 md:ml-0">
-				<img class="h-[250px] w-[250px] rounded-full bg-slate-200 mb-4" src="/" alt="Dr. Joon Lee">
+				<img class="h-[250px] w-[250px] bg-slate-200 mb-4" src="/" alt="Dr. Joon Lee">
 				<h5 class="font-semibold text-xl">Chief Technology Officer</h5>
 				<p>Dr. Joon Lee</p>
 			</div>
 			<div class="flex flex-col items-center mb-8 md:mb-0 ml-12 md:ml-0">
-				<img class="h-[250px] w-[250px] rounded-full bg-slate-200 mb-4" src="/" alt="Ms. Emma Bogner">
+				<img class="h-[250px] w-[250px] bg-slate-200 mb-4" src="/" alt="Ms. Emma Bogner">
 				<h5 class="font-semibold text-xl" >Product Manager</h5>
 				<p>Ms. Emma Bogner</p>
 			</div>
