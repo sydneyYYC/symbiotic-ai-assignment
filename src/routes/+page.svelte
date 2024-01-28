@@ -1,5 +1,6 @@
 <script>
 	import ContactButton from "../lib/ContactButton.svelte";
+	import ContactButtonWhite from "../lib/ContactButtonWhite.svelte";
 
 	
 </script>
@@ -91,8 +92,11 @@
 			</div>
 		</div>
 	</section>
-	<section class="flex flex-col items-center my-[6rem] md:my-[8rem] min-w-screen">
-		<h3 class=" text-3xl font-bold md:text-5xl mb-4">Join us on the journey.</h3>
-		<ContactButton />
-	</section>
 </main>
+<!-- end banner -->
+<section class="flex flex-col items-center mt-[6rem] md:mt-[8rem] min-w-screen bg-blue">
+	<h3 class=" text-3xl font-bold md:text-5xl mb-4 text-white pt-8">Join us on the journey.</h3>
+	<div class="pb-8">
+		<ContactButtonWhite />
+	</div>
+</section>

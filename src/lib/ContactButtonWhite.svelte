@@ -1,0 +1,1 @@
+<a href="/contact" class="max-w-max"><button class=" text-sm md:text-base max-w-max font-inter mx-4 my-2 bg-white text-black px-4 py-2 font-semibold hover:bg-darkblue hover:text-white">Contact Us</button></a>
