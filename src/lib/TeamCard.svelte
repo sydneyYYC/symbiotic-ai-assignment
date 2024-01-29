@@ -6,7 +6,7 @@
 </script>
 
 <div class="flex flex-col md:flex-row justify-between min-w-screen mb-[6rem]">
-  <img class="h-[400px] w-[400px] bg-slate-200 self-start flex-none" src={imgSrc} alt={imgAlt}>
+  <img class="h-[400px] w-[400px] bg-[#E1E1E1] self-start flex-none" src={imgSrc} alt={imgAlt}>
   <div class="mt-4 md:mt-0 mx-0 md:mx-[2rem] lg:mr-[4rem] self-start sm:self-center">
     <h5 class="md:text-4xl font-semibold text-3xl mb-2">{title}</h5>
     <p class="text-xl mb-4">{name}</p>
