@@ -11,5 +11,5 @@
     <p class="text-xl mb-4">{revName}</p>
     <p class="max-w-[50ch] sm:max-w-[55ch] mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quasi autem atque unde harum voluptatibus possimus laboriosam! Reprehenderit, placeat corrupti? Sed quasi autem atque unde harum voluptatibus possimus laboriosam! Reprehenderit, placeat corrupti?</p>
   </div>
-  <img class="h-[400px] w-[400px] bg-[#E1E1E1] self-start flex-none" src={revImgSrc} alt={revImgAlt}>
+  <img class="h-[400px] w-[400px] bg-[#E1E1E1] self-start flex-none p-4" src={revImgSrc} alt={revImgAlt}>
 </div>

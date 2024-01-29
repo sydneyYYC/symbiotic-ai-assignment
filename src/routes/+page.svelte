@@ -5,19 +5,19 @@
 	
 	// data for the team section
 const arjunData = 
-	{imgSrc: "/",
+	{imgSrc: "/assets/images/profile.svg",
 	imgAlt: "Mr. Arjun Puri",
 	title: "Chief Executive Officer",
 	name: "Mr. Arjun Puri"};
 
 	const emmaData = 
-	{imgSrc: "/",
+	{imgSrc: "/assets/images/profile.svg",
 	imgAlt: "Ms. Emma Bogner",
 	title: "Product Manager",
 	name: "Ms. Emma Bogner"};
 
 	const joonData = {
-		revImgsrc: "/",
+		revImgSrc: "/assets/images/profile.svg",
 		revImgAlt: "Dr. Joon Lee",
 		revTitle: "Chief Technology Officer",
 		revName: "Dr. Joon Lee"
