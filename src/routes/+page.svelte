@@ -1,5 +1,4 @@
 <script>
-	import ContactButton from "../lib/ContactButton.svelte";
 	import ContactButtonWhite from "../lib/ContactButtonWhite.svelte";
 	import TeamCard from "../lib/TeamCard.svelte";
 	import TeamCardReverse from "../lib/TeamCardReverse.svelte";
