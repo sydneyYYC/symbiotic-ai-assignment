@@ -86,7 +86,7 @@
     fill: #329CFE;
   }
 
-  @media (min-width: 680px) { 
+  @media (min-width: 675px) { 
     #links {
     display: flex;
     color: white;

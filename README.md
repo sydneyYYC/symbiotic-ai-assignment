@@ -1,6 +1,6 @@
 # Assignment for Symbiotic AI
 # Sydney Bruce
-# [Live]()
+# [Live](https://symbiotic-ai.netlify.app/)
 ## Tech Stack 
 
 - SvelteKit
