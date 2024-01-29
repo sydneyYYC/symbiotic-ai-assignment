@@ -1,2 +1,1 @@
-
 <a href="/contact" class="max-w-max"><button class=" text-sm md:text-base max-w-max font-inter mx-4 my-2 bg-blue text-white px-4 py-2 font-semibold hover:bg-darkblue">Contact Us</button></a>

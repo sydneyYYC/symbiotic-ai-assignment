@@ -3,8 +3,8 @@
 	import ContactButtonWhite from "../lib/ContactButtonWhite.svelte";
 	import TeamCard from "../lib/TeamCard.svelte";
 	import TeamCardReverse from "../lib/TeamCardReverse.svelte";
+	
 	// data for the team section
-
 const arjunData = 
 	{imgSrc: "/",
 	imgAlt: "Mr. Arjun Puri",
@@ -88,27 +88,8 @@ const arjunData =
 	<section class="mx-3 sm:mx-6 md:mx-[5rem] mx-6 my-8 mt-[6rem]">
 		<h3 class="font-semibold text-3xl md:text-4xl my-8 mb-[4rem]">Our Team of Experts</h3>
 		<TeamCard {...arjunData}/>
-
 		<TeamCardReverse {...joonData} />
-
 		<TeamCard {...emmaData}/>
-		<!-- <div class="flex justify-between flex-wrap">
-			<div class="flex flex-col items-center mb-8 md:mb-0 ml-12 md:ml-0">
-				<img class="h-[250px] w-[250px] bg-slate-200 mb-4" src="/" alt="Mr. Arjun Puri">
-				<h5 class="font-semibold text-xl">Chief Executive Officer</h5>
-				<p >Mr. Arjun Puri</p>
-			</div>
-			<div class="flex flex-col items-center mb-8 md:mb-0 ml-12 md:ml-0">
-				<img class="h-[250px] w-[250px] bg-slate-200 mb-4" src="/" alt="Dr. Joon Lee">
-				<h5 class="font-semibold text-xl">Chief Technology Officer</h5>
-				<p>Dr. Joon Lee</p>
-			</div>
-			<div class="flex flex-col items-center mb-8 md:mb-0 ml-12 md:ml-0">
-				<img class="h-[250px] w-[250px] bg-slate-200 mb-4" src="/" alt="Ms. Emma Bogner">
-				<h5 class="font-semibold text-xl" >Product Manager</h5>
-				<p>Ms. Emma Bogner</p>
-			</div>
-		</div> -->
 	</section>
 </main>
 <!-- end banner -->
